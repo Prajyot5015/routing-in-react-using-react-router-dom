@@ -1,5 +1,9 @@
-import ReactDom from "react-dom/client";
+import ReactDom from "react-dom/client"
+import "./style.css"
+import Home from "./views/Home/Home"
+import About from "./views/About/About"
+import Contact from "./views/Contact/Contact"
 
-const root = ReactDom.createRoot(document.getElementById('root'));
+const root = ReactDom.createRoot(document.getElementById('root'))
 
-root.render(<h1>Hello</h1>)
+root.render(<Home />)
